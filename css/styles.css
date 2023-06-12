@@ -1,3 +1,67 @@
+:root{
+    font-size: 62.5%;
+    --gray: #212121;
+    --gray20: #212429;
+    --lightgray: #616161;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: aqua;
+    color: var(--gray);
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: var(--gray);
+}
+
+h1{
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+header{
+    font-size: 14px;
+    color: var(--lightgray);
+}
+
+header a{
+    color: var(--lightgray);
+    text-decoration: none;
+}
+
+header a:hover{
+    color:red;
+}
+
+nav details summary{
+    font-weight: bold;
+}
+
+pre{
+    background-color: #FEC62E;
+    font-size: 1.6rem;
+}
+
+.hero{
+    width: 100%;
+    height: 350px;
+    background-image:linear-gradient(to top,rgba(255,255,255,0.2),transparent), url(../img/patron-1.png);
 }
