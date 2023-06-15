@@ -167,3 +167,33 @@ blockquote span::before{
     position: sticky;
     inset-block-start: -45px;
 }
+
+.slider-container{
+
+    display: block;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+.video{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    margin: 0;
+    display: inline-block;
+}
+.slider-bullet-list{
+    text-align: center;
+}
+.slider-bullet{
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    border-radius: 50%;
+    background-color: var(--lightwhite);
+    margin-block-start: 14px;
+}
+
+.slider-bullet:hover{
+    background-color: var(--white);
+}
