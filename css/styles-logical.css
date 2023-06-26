@@ -132,7 +132,7 @@ blockquote span::before{
 
 .section-content{
     counter-reset: titleList;
-    margin-top: 164px;
+    margin-top: 16px;
 }
 .section-content h3{
     counter-increment: titleList;
@@ -196,4 +196,30 @@ blockquote span::before{
 
 .slider-bullet:hover{
     background-color: var(--white);
+}
+
+.form input{
+    inline-size: 100%;
+    box-sizing: border-box;
+    border: solid 1px var(--lightwhite);
+    background: #251F24;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+    color: var(--white);
+    font-size: 1.6rem;
+    display: block;
+    margin-block-end: 24px;
+}
+
+.form input::-webkit-input-placeholder{
+    color: var(--white20);
+}
+
+.form input[type=submit]{
+    background-color: #157EFB;
+    border: none;
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
 }
